@@ -1,0 +1,110 @@
+.home
+    position: relative
+    width: 100%
+    height: 100vh
+    background-color: #fff
+
+
+    .home__inner
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        z-index: 10
+        display: flex
+        justify-content: center
+
+        .home__block
+            display: inline-block
+            width: 30%
+            padding: 0 35px
+            text-align: left
+
+            .home__watch
+                position: relative
+                left: 50%
+                transform: translateX(-50%)
+
+            .home__title
+                font-size: 60px
+                line-height: 1.2
+                margin-top: 30px
+                padding-bottom: 19px
+
+            .home__descr
+                font-size: 20px
+                line-height: 1.3
+                font-weight: 100
+
+            
+@media (max-width: 1199px)
+    .home
+
+        .home__inner
+
+            .home__block
+                width: 38%
+                    
+@media (max-width: 991px)
+    .home
+
+        .home__inner
+            margin-top: 40px
+
+
+@media (max-width: 767px)
+    .home
+
+        .home__inner
+
+            .home__block
+
+                .home__title
+                    font-size: 30px
+                    margin-top: 0
+
+                .home__descr
+                    font-size: 18px
+
+@media (max-width: 653px)
+    .home
+
+        .home__inner
+
+            .home__block
+                img
+                    width: 200px
+
+                .home__title
+                    font-size: 28px
+
+                .btn__media
+                    position: absolute
+                    bottom: -80px
+                    left: 50%
+                    transform: translateX(-50%)
+                    width: 160px
+
+
+@media (max-width: 497px)
+    .home
+        height: 860px
+
+        .home__inner
+            display: flex
+            flex-direction: column
+            top: 380px
+            
+            .home__block
+                width: auto
+                // padding: 0 10px
+
+                .home__title
+                    margin-top: 20px
+
+@media (max-width: 350px)
+    .home
+
+        .home__inner
+
+            .home__block
+                padding: 0 10px

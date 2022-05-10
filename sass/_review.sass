@@ -1,0 +1,62 @@
+.review
+    padding: 100px 0
+    background-color: #fff
+
+    .review__inner
+        display: flex
+        justify-content: center
+
+        .review__block
+            padding: 0 15px
+            text-align: center
+
+            .block__inner
+                padding: 0 10px
+
+                .review__icon
+                    width: 30px
+                    margin-bottom: 20px
+
+                .review__descr
+                    font-family: 'Droid Serif', serif
+                    font-style: italic
+                    font-size: 14px
+                    line-height: 1.8
+                    color: #777777
+
+            .review__img
+                width: 50px
+                margin-top: 30px
+                border-radius: 50%
+
+            .review__name
+                margin-top: 10px
+                font-size: 20px
+                font-weight: 700
+
+            .review__position
+                font-size: 14px
+                font-weight: 100
+                margin-top: 10px
+
+    .review__btn
+        position: relative
+        left: 50%
+        transform: translateX(-50%)
+        margin-top: 100px
+
+@media (max-width: 991px)
+    .review
+        padding: 70px 0
+
+        .review__inner
+            display: flex
+            flex-direction: column
+            max-width: 540px
+            margin: 0 auto
+
+            .review__block
+                margin-bottom: 40px
+
+        .review__btn
+            margin-top: 40px
